@@ -1,0 +1,154 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/Analyst.cpp
+Analyst.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/Analyst.h
+fstream
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/Analyst.h
+string
+-
+iostream
+-
+History.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/History.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/ColumnDefinition.cpp
+iostream
+-
+iomanip
+-
+ColumnDefinition.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/ColumnDefinition.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/ColumnDefinition.h
+string
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/Comparer.cpp
+Comparer.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/Comparer.h
+FormattedTable.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/FormattedTable.h
+fstream
+-
+sstream
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/Comparer.h
+string
+-
+vector
+-
+Analyst.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/Analyst.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/FormattedCell.cpp
+iostream
+-
+sstream
+-
+iomanip
+-
+FormattedCell.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/FormattedCell.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/FormattedCell.h
+ostream
+-
+string
+-
+ColumnDefinition.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/ColumnDefinition.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/FormattedRow.cpp
+iostream
+-
+iomanip
+-
+FormattedRow.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/FormattedRow.h
+FormattedTable.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/FormattedTable.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/FormattedRow.h
+ostream
+-
+FormattedCell.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/FormattedCell.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/FormattedTable.cpp
+iostream
+-
+iomanip
+-
+FormattedTable.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/FormattedTable.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/FormattedTable.h
+ostream
+-
+ColumnDefinition.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/ColumnDefinition.h
+FormattedRow.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/FormattedRow.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/History.cpp
+History.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/History.h
+iostream
+-
+fstream
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/History.h
+PurchaseSale.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/PurchaseSale.h
+vector
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/PurchaseSale.cpp
+iostream
+-
+fstream
+-
+vector
+-
+PurchaseSale.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/PurchaseSale.h
+Utils.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/Utils.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/PurchaseSale.h
+string
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/Utils.cpp
+sstream
+-
+fstream
+-
+algorithm
+-
+Utils.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/Utils.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/Utils.h
+string
+-
+fstream
+-
+vector
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/main.cpp
+Comparer.h
+C:/Users/efair/OneDrive/School Stuff/1440/AnalystComparer/Comparer.h
+

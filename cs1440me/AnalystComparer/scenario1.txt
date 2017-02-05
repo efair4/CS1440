@@ -1,0 +1,25 @@
+Analyst Comparison
+==================
+
+Investors:
+	TRS Tammy R. Samuelson
+	SJL Samuel J Larsen
+
+
+Overall Performance:
+Info Displayed           |      TRS      |      SJL      |
+-------------------------|---------------|---------------|
+Simulation Days          |    200.00     |    204.00     |
+Seed Money ($)           |   100000.00   |   100000.00   |
+Total Profit Loss ($)    |    2862.65    |    3260.25    |
+Profit Loss Per Day ($)  |     14.31     |     15.98     |
+
+
+Stock Performance:
+Stock Profit Loss Per Day
+Stock Symbol   |      TRS      |      SJL      |
+---------------|---------------|---------------|
+AMZN           |     5.92      |     7.25      |
+MSFT           |     0.20      |     0.00      |
+AAPL           |     3.07      |     2.87      |
+GOOGL          |     6.07      |     9.23      |

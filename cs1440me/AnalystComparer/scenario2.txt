@@ -1,0 +1,20 @@
+Analyst Comparison
+==================
+
+Investors:
+	MGR Mary G. Richardson
+	TRS Tammy R. Samuelson
+	SJL Samuel J Larsen
+
+
+Overall Performance:
+Info Displayed           |      MGR      |      TRS      |      SJL      |
+-------------------------|---------------|---------------|---------------|
+Simulation Days          |    220.00     |    200.00     |    204.00     |
+Seed Money ($)           |   100000.00   |   100000.00   |   100000.00   |
+Total Profit Loss ($)    |    3749.20    |    2862.65    |    3260.25    |
+Profit Loss Per Day ($)  |     17.04     |     14.31     |     15.98     |
+
+
+Stock Performance:
+Stock Profit Loss Per Day
