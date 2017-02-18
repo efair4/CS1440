@@ -181,6 +181,23 @@ void PointTester::testConstructorWithStrings()
     }
 
     // TODO: Write additional meaningful test cases for Point's string-based constructor
+    //Test 1
+    Point q2("2.235,43.2,0");
+    if(!q2.isEquivalentTo(p2)){
+        std::cout<<"Failure in comparing q2 and p2->should be equal."<<std::endl;
+    }
+    //Test 2
+    Point negativePoints("-1, -3.5, 2.22222");
+    if(!negativePoints.isValid()|| !negativePoints.getX()==-1 ||!negativePoints.getY()== -3.5|| !negativePoints.getZ()==2.22222){
+        std::cout<<"Failed to construct -1, -3.5, 2.22222"
+                << " x=" << negativePoints.getX()
+                << " y=" << negativePoints.getY()
+                << " z=" << negativePoints.getZ()<<std::endl;
+
+    }
+    if(q2.isEquivalentTo(negativePoints)){
+        std::cout<<"Failure in comparing q2 and negativePoints->should not be equal"<<std::endl;
+    }
 }
 
 void PointTester::testInvalid() {
@@ -188,5 +205,23 @@ void PointTester::testInvalid() {
 
 
     // TODO: Write meaningful test cases to check for invalid points
+    //Test 1
+    Point letterPoint("a, 4, c");
+    if(letterPoint.isValid()){
+        std::cout<<"Failure, constructed point with letters (a, 4, c). isValid()="
+                 <<letterPoint.isValid()<<std::endl;
+    }
+    //Test 2
+    Point spacePoint("1, , 4");
+    if(spacePoint.isValid()){
+        std::cout<<"Failure, constructed point with a space (1, , 4). isValid()="
+                 <<spacePoint.isValid()<<std::endl;
+    }
+    //Test 3
+    Point notEnough("2,3");
+    if(notEnough.isValid()){
+        std::cout<<"Failure, constructed point with too few values"<<std::endl;
+    }
+
 }
 

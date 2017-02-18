@@ -91,7 +91,24 @@ void TriangleTester::testSecondConstructor()
     std::cout << "Execute TriangleTester::testSecondConstructor" << std::endl;
 
     // TODO: Write representative test cases for the Triangle's second constructor
-
+    //Test 1
+    std::string triString="1,2,3|.23,-6,1.2|.0005,2,1";
+    Triangle stringTri(triString);
+    if(!stringTri.isValid()){
+        std::cout<<"Failure, should be valid."<<std::endl;
+    }
+    if(!stringTri.isTriangle()){
+        std::cout<<"Failure, should be a triangle."<<std::endl;
+    }
+    //Test 2
+    std::string badTriString="0,0,0|0,0,0|1,2,3";
+    Triangle badTri(badTriString);
+    if(!badTri.isValid()){
+        std::cout<<"Failure, badTri should be valid"<<std::endl;
+    }
+    if(badTri.isTriangle()){
+        std::cout<<"Failure, badTri shouldn't be a triangle"<<std::endl;
+    }
 }
 
 void TriangleTester::testEquilateralTriangles()
@@ -127,6 +144,32 @@ void TriangleTester::testEquilateralTriangles()
     }
 
     // TODO: Write additional representative test cases equilateral triangles
+    //Test 1
+    Point** points = new Point*[3];
+    points[0] = new Point(5,0,0);
+    points[1] = new Point(0,5,0);
+    points[2] = new Point(0,0,5);
+    Triangle t2(points);
+    if(!t2.isValid()){
+        std::cout<<"Failure, t2 should be valid"<<std::endl;
+    }
+    if(!t2.isTriangle()){
+        std::cout<<"Failure, t2 should be a triangle"<<std::endl;
+    }
+    if(!t2.getTriangleType()=='E'){
+        std::cout<<"Failure, t2 is unexpected type of"
+                 <<t2.getTriangleType()<<std::endl;
+    }
+    //Test 2
+    std::string triString="0,-.000015, 0|-.000015, 0, 0|0,0,-.000015";
+    Triangle t3(triString);
+    if(t3.isTriangle()){
+        std::cout<<"Failure, points are too close, shouldn't be a triangle"<<std::endl;
+    }
+    if(!t3.computerArea()==0){
+        std::cout<<"Failure, area should be 0. t3 area="
+                 <<t3.computerArea()<<std::endl;
+    }
 }
 
 void TriangleTester::testIsoscelesTriangles()
@@ -134,6 +177,24 @@ void TriangleTester::testIsoscelesTriangles()
     std::cout << "Execute TriangleTester::testIsoscelesTriangles" << std::endl;
 
     // TODO: Write representative test cases isosceles triangles
+    //Test 1
+    Point** points = new Point*[3];
+    points[0] = new Point(.82,-1,0);
+    points[1] = new Point(0,4,0);
+    points[2] = new Point(-.82,-1,0);
+    Triangle t1(points);
+    if(!t1.isValid()){
+        std::cout<<"Failure, t1 should be valid"<<std::endl;
+    }
+    if(!t1.isTriangle()){
+        std::cout<<"Failure, t1 should be a triangle"<<std::endl;
+    }
+    if(t1.getTriangleType()!='I'){
+        std::cout<<"Failure, unexpected type. Isosceles t1 type="
+                 <<t1.getTriangleType()<<std::endl;
+    }
+
+
 }
 
 void TriangleTester::testScaleneTriangles()
@@ -141,6 +202,35 @@ void TriangleTester::testScaleneTriangles()
     std::cout << "Execute TriangleTester::testScaleneTriangles" << std::endl;
 
     // TODO: Write representative test cases scalene triangles
+    //Test 1
+    std::string scaleneString=".11, -.43, 3|-.11, .43, 1|1,4,.24";
+    Triangle t1(scaleneString);
+    if(!t1.isValid()){
+        std::cout<<"Failure, scalene t1 should be valid"<<std::endl;
+    }
+    if(!t1.isTriangle()){
+        std::cout<<"Failure, scalene t1 should be a triangle"<<std::endl;
+    }
+    if(t1.getTriangleType()!='S'){
+        std::cout<<"Failure, unexpected type. Scalene t1 type="
+                 <<t1.getTriangleType()<<std::endl;
+    }
+    //Test 2
+    Point** points = new Point*[3];
+    points[0] = new Point(14,-1,0);
+    points[1] = new Point(-2,4,0);
+    points[2] = new Point(-.82,-1,.3256);
+    Triangle t2(points);
+    if(!t2.isValid()){
+        std::cout<<"Failure, scalene t2 should be valid"<<std::endl;
+    }
+    if(!t2.isTriangle()){
+        std::cout<<"Failure, scalene t2 should be a triangle"<<std::endl;
+    }
+    if(t2.getTriangleType()!='S'){
+        std::cout<<"Failure, unexpected type. Scalene t2 type="
+                 <<t2.getTriangleType()<<std::endl;
+    }
 }
 
 void TriangleTester::testNonTriangles()
@@ -148,6 +238,27 @@ void TriangleTester::testNonTriangles()
     std::cout << "Execute TriangleTester::testNonTriangles" << std::endl;
 
     // TODO: Write representative test cases non-triangles triangles
+    //Test 1
+    std::string badTri="1,2,3|1.000001, 2.0000002, 3.0000003|-1, -2, -3";
+    Triangle badt1(badTri);
+    if(!badt1.isValid()){
+        std::cout<<"Failure, badt1 should be valid"<<std::endl;
+    }
+    if(badt1.isTriangle()){
+        std::cout<<"Failure, badt1 should not be a triangle"<<std::endl;
+    }
+    //Test 2
+    Point** points = new Point*[3];
+    points[0] = new Point(0,0,1);
+    points[1] = new Point(0,0,2);
+    points[2] = new Point(0,0,3);
+    Triangle badt2(points);
+    if(!badt2.isValid()){
+        std::cout<<"Failure, badt2 should be valid"<<std::endl;
+    }
+    if(badt2.isTriangle()){
+        std::cout<<"Failure, badt2 should not be a triangle"<<std::endl;
+    }
 }
 
 void TriangleTester::testInvalid()
@@ -155,4 +266,25 @@ void TriangleTester::testInvalid()
     std::cout << "Execute TriangleTester::testInvalid" << std::endl;
 
     // TODO: Write representative test cases invalid triangles
+    //Test 1
+    Point** points = new Point*[3];
+    points[0] = new Point("aa,b,c");
+    points[1] = new Point("--2, m, 1");
+    points[2] = new Point("bad, 4,4");
+    Triangle invTri(points);
+    if(invTri.isValid()){
+        std::cout<<"Failure, invTri should not be valid"<<std::endl;
+    }
+    if(invTri.isTriangle()){
+        std::cout<<"Failure, invTri should not be a triangle"<<std::endl;
+    }
+    //Test 2
+    std::string invString="..1, d, 3| 1,2,3| t, 5, -6";
+    Triangle invTri2(invString);
+    if(invTri2.isValid()){
+        std::cout<<"Failure, invTri2 should not be valid"<<std::endl;
+    }
+    if(invTri2.isTriangle()){
+        std::cout<<"Failure, invTri2 should not be a triangle"<<std::endl;
+    }
 }

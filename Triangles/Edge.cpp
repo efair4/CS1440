@@ -9,7 +9,7 @@
 
 Edge::Edge(const Point* point1, const Point* point2) : m_point1(point1), m_point2(point2)
 {
-    m_isValid = (m_point1!= nullptr && m_point2!= nullptr);
+    m_isValid = (m_point1!= nullptr && m_point2!= nullptr && m_point1->isValid() && m_point2->isValid());
 }
 
 double Edge::getLength() const
@@ -112,7 +112,7 @@ bool Edge::isParallelTo(const Edge &otherEdge)
            otherEdge.isValid() &&
            areSlopesEquivalent(getSlopeX(), otherEdge.getSlopeX()) &&
            areSlopesEquivalent(getSlopeY(), otherEdge.getSlopeY()) &&
-           areSlopesEquivalent(getSlopeZ(), otherEdge.getSlopeX());
+           areSlopesEquivalent(getSlopeZ(), otherEdge.getSlopeZ());
 }
 
 // Returns true if true slopes are equivalent, i.e. both INFINITY or the same within a small margin of error

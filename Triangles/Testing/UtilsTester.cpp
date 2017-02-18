@@ -183,7 +183,7 @@ void UtilsTester::testConvertToDouble()
 
     s = "- 123.4567";
     result = convertStringToDouble(s, &isValid);
-    if (result != 0 || isValid) {
+    if (result != INFINITY || isValid) {
         std::cout << "Failure in convertStringToDouble(s, &isValid) for s=\"" << s
                   << "\" result=" << result << " isValid=" << isValid << std::endl;
         return;
@@ -191,7 +191,7 @@ void UtilsTester::testConvertToDouble()
 
     s = "123.45.67";
     result = convertStringToDouble(s, &isValid);
-    if (result != 0 || isValid) {
+    if (result != INFINITY || isValid) {
         std::cout << "Failure in convertStringToDouble(s, &isValid) for s=\"" << s
                   << "\" result=" << result << " isValid=" << isValid << std::endl;
         return;
@@ -199,7 +199,7 @@ void UtilsTester::testConvertToDouble()
 
     s = "A123.4567";
     result = convertStringToDouble(s, &isValid);
-    if (result != 0 || isValid) {
+    if (result != INFINITY || isValid) {
         std::cout << "Failure in convertStringToDouble(s, &isValid) for s=\"" << s
                   << "\" result=" << result << " isValid=" << isValid << std::endl;
         return;
@@ -207,7 +207,7 @@ void UtilsTester::testConvertToDouble()
 
     s = "123.4567A";
     result = convertStringToDouble(s, &isValid);
-    if (result != 0 || isValid) {
+    if (result != INFINITY || isValid) {
         std::cout << "Failure in convertStringToDouble(s, &isValid) for s=\"" << s
                   << "\" result=" << result << " isValid=" << isValid << std::endl;
         return;

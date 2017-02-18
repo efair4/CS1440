@@ -40,20 +40,43 @@ double convertStringToDouble(const std::string& s, bool* valid)
         *valid = false;
 
     std::size_t numberOfConvertedCharacters = 0;
-    if (s!="")
+    if (s!="" && s!=" ")
     {
         try {
             std::string trimmedString = trim(s);
+            int numNegative=0;
+            int numPeriods=0;
+            for(char letter='a';letter<='z';letter++){
+                if (trimmedString[0] == letter) {
+                    *valid = false;
+                    return INFINITY;
+                }
+            }
+            for(int i=0;i<trimmedString.length();i++){
+                if(trimmedString[i]=='-'){
+                    numNegative++;
+                }
+                else if(trimmedString[i]=='.'){
+                    numPeriods++;
+                }
+            }
+            if(numPeriods>1 || numNegative>2){
+                *valid = false;
+                return INFINITY;
+            }
             result = std::stod(trimmedString, &numberOfConvertedCharacters);
             if (valid!=nullptr && numberOfConvertedCharacters==trimmedString.length())
                 *valid = true;
             else if (numberOfConvertedCharacters!=trimmedString.length())
-                result = 0;
+                result = INFINITY;
         }
         catch (std::exception)
         {
-            // do nothing, let the result remain 0 and the valid flag false
+            result=INFINITY;// do nothing, let the result remain 0 and the valid flag false
         }
+    }
+    else {
+        result=INFINITY;
     }
 
     return result;
