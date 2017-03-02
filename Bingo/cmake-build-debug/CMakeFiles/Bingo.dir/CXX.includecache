@@ -1,0 +1,90 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/Card.cpp
+cstdlib
+-
+algorithm
+-
+random
+-
+iomanip
+-
+Card.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/Card.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/Card.h
+vector
+-
+iostream
+-
+chrono
+-
+random
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/Deck.cpp
+Deck.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/Deck.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/Deck.h
+Card.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/Card.h
+ostream
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/Menu.cpp
+Menu.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/Menu.h
+locale
+-
+string.h
+-
+iostream
+-
+iomanip
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/Menu.h
+MenuOption.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/MenuOption.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/MenuOption.cpp
+MenuOption.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/MenuOption.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/MenuOption.h
+string
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/UserInterface.cpp
+UserInterface.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/UserInterface.h
+iostream
+-
+iomanip
+-
+fstream
+-
+Deck.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/Deck.h
+Menu.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/Menu.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/UserInterface.h
+string
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/main.cpp
+iostream
+-
+ctime
+-
+UserInterface.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Bingo/UserInterface.h
+
