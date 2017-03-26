@@ -1,0 +1,234 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/City.cpp
+City.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/City.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/City.h
+Region.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Region.h
+string
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/County.cpp
+County.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/County.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/County.h
+Region.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Region.h
+string
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/CountyUserInterface.cpp
+CountyUserInterface.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/CountyUserInterface.h
+Menu.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Menu.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/CountyUserInterface.h
+UserInterface.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/UserInterface.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Menu.cpp
+Menu.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Menu.h
+locale
+-
+string.h
+-
+iostream
+-
+iomanip
+-
+algorithm
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Menu.h
+MenuOption.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/MenuOption.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/MenuOption.cpp
+MenuOption.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/MenuOption.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/MenuOption.h
+string
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Nation.cpp
+Nation.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Nation.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Nation.h
+Region.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Region.h
+string
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/NationUserInterface.cpp
+NationUserInterface.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/NationUserInterface.h
+Menu.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Menu.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/NationUserInterface.h
+UserInterface.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/UserInterface.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Region.cpp
+Region.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Region.h
+Utils.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Utils.h
+World.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/World.h
+Nation.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Nation.h
+State.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/State.h
+County.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/County.h
+City.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/City.h
+iomanip
+-
+iostream
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Region.h
+string
+-
+vector
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/State.cpp
+State.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/State.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/State.h
+Region.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Region.h
+string
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/StateUserInterface.cpp
+StateUserInterface.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/StateUserInterface.h
+Menu.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Menu.h
+Utils.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Utils.h
+iostream
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/StateUserInterface.h
+UserInterface.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/UserInterface.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Testing/RegionTester.cpp
+RegionTester.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Testing/RegionTester.h
+../Region.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Region.h
+iostream
+-
+fstream
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Testing/RegionTester.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Testing/UtilsTester.cpp
+UtilsTester.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Testing/UtilsTester.h
+iostream
+-
+cmath
+-
+../Utils.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Utils.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Testing/UtilsTester.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Testing/testMain.cpp
+iostream
+-
+UtilsTester.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Testing/UtilsTester.h
+RegionTester.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Testing/RegionTester.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/UserInterface.cpp
+UserInterface.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/UserInterface.h
+NationUserInterface.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/NationUserInterface.h
+StateUserInterface.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/StateUserInterface.h
+CountyUserInterface.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/CountyUserInterface.h
+Menu.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Menu.h
+Utils.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Utils.h
+iostream
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/UserInterface.h
+Region.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Region.h
+string
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Utils.cpp
+algorithm
+-
+string
+-
+iostream
+-
+sstream
+-
+fstream
+-
+cmath
+-
+limits
+-
+Utils.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Utils.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Utils.h
+string
+-
+fstream
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/World.cpp
+World.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/World.h
+iomanip
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/World.h
+Region.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Region.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/WorldUserInterface.cpp
+WorldUserInterface.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/WorldUserInterface.h
+Menu.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/Menu.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/WorldUserInterface.h
+UserInterface.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/UserInterface.h
+World.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GeoRegions/World.h
+

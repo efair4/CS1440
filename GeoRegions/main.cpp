@@ -22,7 +22,6 @@ int main()
             world = (World*) region;
             // std::cout << "Loaded a world and "  << world->getSubRegionCount() << " nations from Nations.txt" << std::endl;
             std::cout << "Loaded a world and "  << world->getSubCount() << " nations from Nations.txt" << std::endl;
-            //flag
         }
         else
         {

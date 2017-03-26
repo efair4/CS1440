@@ -50,14 +50,14 @@ void RegionTester::testCreateFromStream()
             return;
         }
 
-        if (world->getSubRegionCount()!=4)
+        if (world->getSubCount()!=4)
         {
             std::cout << "Failed to load the four expected nations from " << inputFile << std::endl;
-            std::cout << "\tExpected 4 nations, but loaded a " << world->getSubRegionCount() << std::endl;
+            std::cout << "\tExpected 4 nations, but loaded a " << world->getSubCount() << std::endl;
             return;
         }
 
-        for (unsigned int nationIndex=0; nationIndex < world->getSubRegionCount(); nationIndex++)
+        for (unsigned int nationIndex=0; nationIndex < world->getSubCount(); nationIndex++)
         {
             Region* nation = world->getSubRegionByIndex(nationIndex);
             if (nation->getType()!=Region::RegionType::NationType)
@@ -445,13 +445,48 @@ void RegionTester::testGettersAndSetters()
 void RegionTester::testSubRegions()
 {
     std::cout << "RegionTester::testSubRegions" << std::endl;
-
-    // TODO: Add test cases for managing sub-regions
+    
+    std::string inputFile = "SampleData/sampleData-3.txt";
+    std::ifstream inputStream(inputFile);
+    Region* region = Region::create(inputStream);
+    if(region->getSubCount()!=4){
+        std::cout<<"Failure, sub count for region should have been 4 but was "<<region->getSubCount()<<std::endl;
+    }
+    Region* subRegion=region->getSubRegionByIndex(0);
+    if(subRegion->m_parent->getType()!= Region::WorldType){
+        std::cout<<"Failure, parent type should have been WorldType but was "<<
+                 subRegion->m_parent->getType()<<std::endl;
+    }
+    if(subRegion->getSubCount()!=4){
+        std::cout<<"Failure, sub count for subRegion should have been 4 but was "<<subRegion->getSubCount()<<std::endl;
+    }
+    Region* subSubRegion=subRegion->getSubRegionByIndex(1);
+    if(subSubRegion->m_parent->getName()!="United States"){
+        std::cout<<"Failure, subSubRegion parent name should be United States but was "<<
+                 subSubRegion->m_parent->getName()<<std::endl;
+    }
 }
 
 void RegionTester::testComputeTotalPopulation()
 {
     std::cout << "RegionTester::testComputeTotalPopulation" << std::endl;
 
-    // TODO: Add test cases for computeTotalPopulation
+    std::string inputFile = "SampleData/sampleData-4.txt";
+    std::ifstream inputStream(inputFile);
+    Region* region = Region::create(inputStream);
+    Region* subRegion1=region->getSubRegionByIndex(0);
+    if(subRegion1->computeTotalPopulation()!=532195){
+        std::cout<<"Failure, total population for subRegion1 should have been 532195 but was "<<
+                 subRegion1->computeTotalPopulation()<<std::endl;
+    }
+    Region* subRegion2=region->getSubRegionByIndex(1);
+    if(subRegion2->computeTotalPopulation()!= 3523523){
+        std::cout<<"Failure, total population for subRegion2 should have been 3523523 but was "<<
+                 subRegion2->computeTotalPopulation()<<std::endl;
+    }
+    Region* subSubRegion=subRegion1->getSubRegionByIndex(0);
+    if(subSubRegion->computeTotalPopulation()!=462166){
+        std::cout<<"Failure, total population for subSubRegion should have been 462166 but was "<<
+                 subSubRegion->computeTotalPopulation()<<std::endl;
+    }
 }

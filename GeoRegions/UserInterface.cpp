@@ -89,11 +89,11 @@ void UserInterface::add()
 
     if (m_subRegionType!=Region::RegionType::UnknownRegionType) {
         std::string data = getStringInput(
-                "Enter name,population,areas for " + Region::regionLabel(m_subRegionType) + ":");
+                "Enter name,population,area for " + Region::regionLabel(m_subRegionType) + ":");
         if (data != "") {
             Region *region = Region::create(m_subRegionType, data);
             if (region != nullptr) {
-                m_currentRegion->m_subregions.push_back(region); //flag
+                m_currentRegion->m_subregions.push_back(region);
                 region->m_parent=m_currentRegion;
                 std::cout << Region::regionLabel(m_subRegionType) << " added" << std::endl;
             } else {
@@ -120,11 +120,14 @@ void UserInterface::edit()
     {
         bool valid;
         unsigned int id = convertStringToUnsignedInt(input, &valid);
+        if(Region::isDeleted(id)){
+            valid=false;
+        }
         unsigned int offset=Region::getOffset(id);
         id-=offset;
         if (valid && id>0 && id<Region::getMaxId())
         {
-            Region* region=Region::m_regions[id]; //flag
+            Region* region=Region::m_regions[id];
             if (region!=nullptr)
             {
                 std::cout << "Editing: ";
@@ -216,12 +219,15 @@ void UserInterface::remove()
     {
         bool valid;
         unsigned int id = convertStringToUnsignedInt(input, &valid);
+        if(Region::isDeleted(id)){
+            valid=false;
+        }
         unsigned int offset=Region::getOffset(id);
         id-=offset;
         if (valid && id>0 && id<Region::getMaxId())
         {
             Region* region=Region::m_regions[id];
-            if(region) {  //flag
+            if(region) {
                 region->deleteRegion(region,id);
             }
             std::cout << "Deleted!" << std::endl;
@@ -249,11 +255,14 @@ void UserInterface::changeToSubRegion()
     {
         bool valid;
         unsigned int id = convertStringToUnsignedInt(input, &valid);
+        if(Region::isDeleted(id)){
+            valid=false;
+        }
         unsigned int offset=Region::getOffset(id);
         id-=offset;
         if (valid && id>0 && id<Region::getMaxId())
         {
-            Region* region=Region::m_regions[id]; //flag
+            Region* region=Region::m_regions[id];
             if (region!=nullptr)
             {
                 UserInterface* nextUI = nullptr;
@@ -280,6 +289,10 @@ void UserInterface::changeToSubRegion()
                     std::cout << "Can't move into the context of " << region->getName();
                 }
             }
+        }
+        else
+        {
+            std::cout << "Invalid region id -- can't change context" << std::endl;
         }
     }
 };

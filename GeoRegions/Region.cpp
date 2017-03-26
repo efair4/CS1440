@@ -18,6 +18,7 @@ const int TAB_SIZE = 4;
 unsigned int Region::m_nextId = 0;
 std::vector<Region*> Region::m_regions;
 int Region::m_lowestDeleted=-1;
+std::vector<int> Region::m_deletedRegions;
 
 unsigned int Region::getOffset(unsigned int id){
     unsigned int difference;
@@ -148,26 +149,21 @@ Region::Region(RegionType type, const std::string data[]) :
 
 Region::~Region()
 {
-    for(Region* sub : m_subregions){  //flag, not sure if this is right
-        sub=nullptr;
-        delete sub;
+    if (this!=nullptr)
+    {
+        delete &m_subregions;
     }
-    for(Region* region: m_regions){
-        region=nullptr;
-        delete region;
-    }
+    delete &m_regions;
 }
-
 std::string Region::getRegionLabel() const
 {
     return regionLabel(getType());
 }
 
-unsigned int Region::computeTotalPopulation()
-{
-    unsigned int totalPop=m_population; //flag, not sure if this is right
+unsigned int Region::computeTotalPopulation(){
+    unsigned int totalPop=getPopulation();
     for(Region* sub : m_subregions){
-        totalPop+=sub->m_population;
+        totalPop+=sub->computeTotalPopulation();
     }
     return totalPop;
 }
@@ -176,10 +172,9 @@ void Region::list(std::ostream& out)
 {
     out << std::endl;
     out << getName() << ":" << std::endl;
-    //for()
     // foreach subregion, print out
     //      id    name
-    for(Region* sub : m_subregions){  //flag
+    for(Region* sub : m_subregions){
         out<<sub->getId()<<": "<<sub->getName()<<std::endl;
     }
 }
@@ -206,7 +201,7 @@ void Region::display(std::ostream& out, unsigned int displayLevel, bool showChil
     {
         // foreach subregion
         //      display that subregion at displayLevel+1 with the same showChild value
-        for(Region* sub : m_subregions){  //flag
+        for(Region* sub : m_subregions){
             sub->display(out, displayLevel+1, showChild);
         }
     }
@@ -222,7 +217,7 @@ void Region::save(std::ostream& out)
 
     // foreach subregion,
     //      save that region
-    for(Region* sub: m_subregions){  //flag
+    for(Region* sub: m_subregions){
         sub->save(out);
     }
     out << regionDelimiter << std::endl;
@@ -249,8 +244,8 @@ void Region::loadChildren(std::istream& in)
             Region* child = create(line);
             if (child!= nullptr)
             {
-                m_subregions.push_back(child);  //flag
-                child->m_parent=this;  //flag
+                m_subregions.push_back(child);
+                child->m_parent=this;
                 child->loadChildren(in);
             }
         }
@@ -288,8 +283,24 @@ void Region::deleteRegion(Region* region, unsigned int id){
         if(Region::m_lowestDeleted==-1 || region->m_subregions[i]->getId()<Region::m_lowestDeleted){
             Region::m_lowestDeleted=region->m_subregions[i]->getId();
         }
+        Region::m_deletedRegions.push_back(region->m_subregions[i]->getId());
         region->m_subregions.erase(region->m_subregions.begin() + i);
     }
     Region::m_regions.erase(Region::m_regions.begin() + id);
+    Region::m_deletedRegions.push_back(id);
     delete region;
+}
+
+bool Region::isDeleted(unsigned int id) {
+    int count=0;
+    bool found=false;
+    while(!found && count<m_deletedRegions.size()){
+        if(m_deletedRegions[count]==id){
+            found=true;
+        }
+        else{
+            count++;
+        }
+    }
+    return found;
 }
