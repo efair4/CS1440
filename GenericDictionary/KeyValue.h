@@ -9,13 +9,13 @@
 template <typename K, typename V>
 class KeyValue {
 public:
-    KeyValue(K,V);
-    KeyValue(const KeyValue<K,V>&);
-    K getKey() const {return m_key;};
-    V getValue() const {return m_value;};
+    KeyValue(K,V);                          //Constructor
+    KeyValue(const KeyValue<K,V>&);         //Copy constructor
+    K getKey() const {return m_key;};       //Returns the value of m_key
+    V getValue() const {return m_value;};   //Returns the value of m_value
 private:
-    K m_key;
-    V m_value;
+    K m_key;                                //Holds the key for a KeyValue object
+    V m_value;                              //Hold the value for a KeyValue object
 };
 
 template <typename K, typename V>

@@ -12,30 +12,30 @@
 template <typename K, typename V>
 class Dictionary {
 public:
-    Dictionary();
-    Dictionary(int);
-    ~Dictionary();
-    Dictionary(const Dictionary<K,V>&);
-    void add(K, V);
-    KeyValue<K, V> getByKey(K) const;
-    KeyValue<K, V> getByIndex(int) const;
-    void removeByKey(K);
-    void removeByIndex(int);
-    int getCount() const {return m_itemsAdded;};
-    int getSize() const {return m_dictSize;};
-    void printDict();
+    Dictionary();                               //Default constructor
+    Dictionary(int);                            //Non-default constructor
+    ~Dictionary();                              //Destructor
+    Dictionary(const Dictionary<K,V>&);         //Copy constructor
+    void add(K, V);                             //Creates a new KeyValue and adds it to m_dict
+    KeyValue<K, V> getByKey(K) const;           //Returns a KeyValue by key
+    KeyValue<K, V> getByIndex(int) const;       //Returns a KeyValue by index
+    void removeByKey(K);                        //Removes a KeyValue by key
+    void removeByIndex(int);                    //Removes a KeyValue by index
+    int getCount() const {return m_itemsAdded;};//Returns the number of items in m_dict
+    int getSize() const {return m_dictSize;};   //Returns the size of m_dict
+    void printDict();                           //Prints the contents of m_dict
 
 private:
-    const int DEFAULT_SIZE=10;
-    const int DEFAULT_COUNT=0;
+    const int DEFAULT_SIZE=10;                  //Default dictionary size
+    const int DEFAULT_COUNT=0;                  //Default count for the number of items added
 
-    KeyValue<K, V>** m_dict;
-    int m_dictSize;
-    int m_itemsAdded;
+    KeyValue<K, V>** m_dict;                    //Dictionary of KeyValues
+    int m_dictSize;                             //Holds the size of m_dict
+    int m_itemsAdded;                           //Holds the number of items in m_dict
 
-    void resize();
-    int findKey(K) const;
-    void validateIndex(int) const;
+    void resize();                              //Doubles m_dictSize and copies KeyValues over
+    int findKey(K) const;                       //Returns the index of the given key
+    void validateIndex(int) const;              //Checks to make sure the index given is in range
 };
 
 template <typename K, typename V>
@@ -74,7 +74,6 @@ Dictionary<K,V>::Dictionary(const Dictionary<K,V>& object){
     for(int i=0;i<m_itemsAdded;i++){
         m_dict[i]=object.m_dict[i];
     }
-    std::cout<<"Copy constructor"<<std::endl;
 };
 
 template <typename K, typename V>
