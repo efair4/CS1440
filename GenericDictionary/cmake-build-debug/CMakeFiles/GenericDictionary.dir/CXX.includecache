@@ -7,16 +7,12 @@
 #IncludeRegexTransform: 
 
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/Dictionary.h
-stdexcept
--
 iostream
 -
 KeyValue.h
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/KeyValue.h
 
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/KeyValue.h
-iostream
--
 
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/main.cpp
 Dictionary.h

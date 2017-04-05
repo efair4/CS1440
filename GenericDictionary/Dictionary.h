@@ -5,7 +5,6 @@
 #ifndef GENERICDICTIONARY_DICTIONARY_H
 #define GENERICDICTIONARY_DICTIONARY_H
 
-#include <stdexcept>
 #include <iostream>
 #include "KeyValue.h"
 
@@ -23,7 +22,7 @@ public:
     void removeByIndex(int);                    //Removes a KeyValue by index
     int getCount() const {return m_itemsAdded;};//Returns the number of items in m_dict
     int getSize() const {return m_dictSize;};   //Returns the size of m_dict
-    void printDict();                           //Prints the contents of m_dict
+    void printDict() const;                           //Prints the contents of m_dict
 
 private:
     const int DEFAULT_SIZE=10;                  //Default dictionary size
@@ -173,7 +172,7 @@ void Dictionary<K,V>::resize(){
 };
 
 template <typename K, typename V>
-void Dictionary<K,V>::printDict(){
+void Dictionary<K,V>::printDict() const {
     if(m_itemsAdded!=0){
         for(int i=0;i<m_itemsAdded;i++){
             std::cout<<i<<": ["<<m_dict[i]->getKey()<<", "
