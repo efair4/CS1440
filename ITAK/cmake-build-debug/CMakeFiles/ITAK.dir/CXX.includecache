@@ -1,0 +1,92 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Analyzer.h
+ResultSet.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/ResultSet.h
+Configuration.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Configuration.h
+fstream
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Configuration.cpp
+Configuration.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Configuration.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Configuration.h
+Dictionary.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Dictionary.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/DOSAnalyzer.h
+Analyzer.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Analyzer.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/DenialOfServiceAnalyzer.cpp
+DOSAnalyzer.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/DOSAnalyzer.h
+Utils.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Utils.h
+vector
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Dictionary.h
+iostream
+-
+KeyValue.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/KeyValue.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/KeyValue.h
+iostream
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/PortScanAnalyzer.cpp
+PortScanAnalyzer.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/PortScanAnalyzer.h
+Utils.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Utils.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/PortScanAnalyzer.h
+Analyzer.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Analyzer.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/ResultSet.cpp
+ResultSet.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/ResultSet.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/ResultSet.h
+Dictionary.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Dictionary.h
+fstream
+-
+vector
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Utils.cpp
+sstream
+-
+Utils.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Utils.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Utils.h
+vector
+-
+string
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/main.cpp
+iostream
+-
+fstream
+-
+Analyzer.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Analyzer.h
+DOSAnalyzer.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/DOSAnalyzer.h
+PortScanAnalyzer.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/PortScanAnalyzer.h
+
