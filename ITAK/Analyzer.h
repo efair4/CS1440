@@ -11,7 +11,7 @@
 
 class Analyzer {
 public:
-    Analyzer(std::ifstream&, Configuration config): m_config(config){}
+    Analyzer(Configuration config): m_config(config){}
     virtual ResultSet run(std::ifstream&)=0;
 
 protected:

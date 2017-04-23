@@ -23,7 +23,6 @@ public:
     void removeByIndex(int);                    //Removes a KeyValue by index
     int getCount() const {return m_itemsAdded;};//Returns the number of items in m_dict
     int getSize() const {return m_dictSize;};   //Returns the size of m_dict
-    void printDict() const;                     //Prints the contents of m_dict
 
 protected:
     KeyValue<K, V>** m_dict;                    //Dictionary of KeyValues
@@ -188,17 +187,6 @@ void Dictionary<K,V>::resize(){
     }
     delete [] m_dict;
     m_dict=temp;
-};
-
-template <typename K, typename V>
-void Dictionary<K,V>::printDict() const {
-    if(m_itemsAdded!=0){
-        for(int i=0;i<m_itemsAdded;i++){
-            std::cout<<i<<": ["<<m_dict[i]->getKey()<<", "
-                     << m_dict[i]->getValue()<<"]"<<std::endl;
-        }
-        std::cout<<std::endl;
-    }
 };
 
 template <typename K, typename V>

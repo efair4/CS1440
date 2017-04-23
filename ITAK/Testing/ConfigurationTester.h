@@ -7,7 +7,8 @@
 
 
 class ConfigurationTester {
-
+public:
+    void testGetters();
 };
 
 

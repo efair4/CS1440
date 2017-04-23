@@ -69,24 +69,32 @@ vector
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/ConfigurationTester.cpp
 ConfigurationTester.h
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/ConfigurationTester.h
+../Configuration.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Configuration.h
 
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/ConfigurationTester.h
 
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/DOSTester.cpp
 DOSTester.h
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/DOSTester.h
+../DOSAnalyzer.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/DOSAnalyzer.h
 
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/DOSTester.h
 
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/PortScanTester.cpp
 PortScanTester.h
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/PortScanTester.h
+../PortScanAnalyzer.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/PortScanAnalyzer.h
 
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/PortScanTester.h
 
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/ResultSetTester.cpp
 ResultSetTester.h
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/ResultSetTester.h
+../ResultSet.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/ResultSet.h
 
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/ResultSetTester.h
 
@@ -103,6 +111,14 @@ C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/Uti
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/testMain.cpp
 UtilsTester.h
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/UtilsTester.h
+DOSTester.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/DOSTester.h
+PortScanTester.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/PortScanTester.h
+ConfigurationTester.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/ConfigurationTester.h
+ResultSetTester.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Testing/ResultSetTester.h
 
 C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/ITAK/Utils.cpp
 sstream

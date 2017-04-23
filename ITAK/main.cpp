@@ -13,12 +13,14 @@ int main() {
     config.add("Likely Attack Message Count", "100");
     config.add("Possible Attack Message Count", "200");
     try {
-        DenialOfServiceAnalyzer dosAnalyzer(infile, config);
+        DenialOfServiceAnalyzer dosAnalyzer(config);
+        dosAnalyzer.run(infile);
     }catch(char* ex){
         std::cout<<"Configuration parameters missing"<<std::endl;
     }
     try {
-        PortScanAnalyzer psAnalyzer(infile, config);
+        PortScanAnalyzer psAnalyzer(config);
+        psAnalyzer.run(infile);
     }catch(char* ex){
         std::cout<<"Configuration parameters missing"<<std::endl;
     }

@@ -7,7 +7,8 @@
 
 
 class ResultSetTester {
-
+public:
+    void testPrint();
 };
 
 

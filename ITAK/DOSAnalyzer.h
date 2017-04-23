@@ -9,8 +9,7 @@
 
 class DenialOfServiceAnalyzer : public Analyzer{
 public:
-    DenialOfServiceAnalyzer(std::ifstream& in, Configuration config):
-    Analyzer(in, config)
+    DenialOfServiceAnalyzer(Configuration config): Analyzer(config)
     {}
     ResultSet run(std::ifstream&);
 private:

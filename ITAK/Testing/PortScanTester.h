@@ -7,7 +7,8 @@
 
 
 class PortScanTester {
-
+public:
+    void portTest();
 };
 
 

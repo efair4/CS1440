@@ -29,15 +29,33 @@ CMakeFiles/Test.dir/ResultSet.cpp.obj: ../KeyValue.h
 CMakeFiles/Test.dir/ResultSet.cpp.obj: ../ResultSet.cpp
 CMakeFiles/Test.dir/ResultSet.cpp.obj: ../ResultSet.h
 
+CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.obj: ../Configuration.h
+CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.obj: ../Dictionary.h
+CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.obj: ../KeyValue.h
 CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.obj: ../Testing/ConfigurationTester.cpp
 CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.obj: ../Testing/ConfigurationTester.h
 
+CMakeFiles/Test.dir/Testing/DOSTester.cpp.obj: ../Analyzer.h
+CMakeFiles/Test.dir/Testing/DOSTester.cpp.obj: ../Configuration.h
+CMakeFiles/Test.dir/Testing/DOSTester.cpp.obj: ../DOSAnalyzer.h
+CMakeFiles/Test.dir/Testing/DOSTester.cpp.obj: ../Dictionary.h
+CMakeFiles/Test.dir/Testing/DOSTester.cpp.obj: ../KeyValue.h
+CMakeFiles/Test.dir/Testing/DOSTester.cpp.obj: ../ResultSet.h
 CMakeFiles/Test.dir/Testing/DOSTester.cpp.obj: ../Testing/DOSTester.cpp
 CMakeFiles/Test.dir/Testing/DOSTester.cpp.obj: ../Testing/DOSTester.h
 
+CMakeFiles/Test.dir/Testing/PortScanTester.cpp.obj: ../Analyzer.h
+CMakeFiles/Test.dir/Testing/PortScanTester.cpp.obj: ../Configuration.h
+CMakeFiles/Test.dir/Testing/PortScanTester.cpp.obj: ../Dictionary.h
+CMakeFiles/Test.dir/Testing/PortScanTester.cpp.obj: ../KeyValue.h
+CMakeFiles/Test.dir/Testing/PortScanTester.cpp.obj: ../PortScanAnalyzer.h
+CMakeFiles/Test.dir/Testing/PortScanTester.cpp.obj: ../ResultSet.h
 CMakeFiles/Test.dir/Testing/PortScanTester.cpp.obj: ../Testing/PortScanTester.cpp
 CMakeFiles/Test.dir/Testing/PortScanTester.cpp.obj: ../Testing/PortScanTester.h
 
+CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.obj: ../Dictionary.h
+CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.obj: ../KeyValue.h
+CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.obj: ../ResultSet.h
 CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.obj: ../Testing/ResultSetTester.cpp
 CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.obj: ../Testing/ResultSetTester.h
 
@@ -45,6 +63,10 @@ CMakeFiles/Test.dir/Testing/UtilsTester.cpp.obj: ../Testing/UtilsTester.cpp
 CMakeFiles/Test.dir/Testing/UtilsTester.cpp.obj: ../Testing/UtilsTester.h
 CMakeFiles/Test.dir/Testing/UtilsTester.cpp.obj: ../Utils.h
 
+CMakeFiles/Test.dir/Testing/testmain.cpp.obj: ../Testing/ConfigurationTester.h
+CMakeFiles/Test.dir/Testing/testmain.cpp.obj: ../Testing/DOSTester.h
+CMakeFiles/Test.dir/Testing/testmain.cpp.obj: ../Testing/PortScanTester.h
+CMakeFiles/Test.dir/Testing/testmain.cpp.obj: ../Testing/ResultSetTester.h
 CMakeFiles/Test.dir/Testing/testmain.cpp.obj: ../Testing/UtilsTester.h
 CMakeFiles/Test.dir/Testing/testmain.cpp.obj: ../Testing/testMain.cpp
 

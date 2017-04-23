@@ -9,8 +9,7 @@
 
 class PortScanAnalyzer : public Analyzer {
 public:
-    PortScanAnalyzer(std::ifstream& in, Configuration config):
-    Analyzer(in, config)
+    PortScanAnalyzer(Configuration config): Analyzer(config)
     {}
     ResultSet run(std::ifstream&);
 private:

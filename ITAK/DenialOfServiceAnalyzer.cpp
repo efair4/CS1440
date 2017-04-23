@@ -25,7 +25,6 @@ Dictionary<std::string, Dictionary<long, int>> DenialOfServiceAnalyzer::file(std
     std::vector<std::string> splitString;
     std::string ip;
     long time;
-    int count=0;
     while(!infile.eof()){
         std::getline(infile, string);
         try {
