@@ -1,0 +1,54 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/BinTree.cpp
+BinTree.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/BinTree.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/BinTree.h
+string
+-
+vector
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/Dictionary.h
+iostream
+-
+KeyValue.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/KeyValue.h
+BinTree.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/BinTree.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/KeyValue.h
+iostream
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/Testing/DictionaryTester.cpp
+DictionaryTester.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/Testing/DictionaryTester.h
+../Dictionary.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/Dictionary.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/Testing/DictionaryTester.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/Testing/KeyValueTester.cpp
+KeyValueTester.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/Testing/KeyValueTester.h
+../KeyValue.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/KeyValue.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/Testing/KeyValueTester.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/Testing/testMain.cpp
+iostream
+-
+DictionaryTester.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/Testing/DictionaryTester.h
+KeyValueTester.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/Testing/KeyValueTester.h
+

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/BinTree.cpp
+BinTree.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/BinTree.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/BinTree.h
+string
+-
+vector
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/Dictionary.h
+iostream
+-
+KeyValue.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/KeyValue.h
+BinTree.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/BinTree.h
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/KeyValue.h
+iostream
+-
+
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/main.cpp
+Dictionary.h
+C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/Dictionary.h
+ctime
+-
+
