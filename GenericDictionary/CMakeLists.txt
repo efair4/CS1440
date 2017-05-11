@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(SOURCE_FILES
         Dictionary.h
         KeyValue.h
+        BinTree.cpp BinTree.h
         )
 
 add_executable(GenericDictionary main.cpp ${SOURCE_FILES})

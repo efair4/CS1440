@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/efair/OneDrive/School Stuff/1440/Triangles/Edge.cpp" "C:/Users/efair/OneDrive/School Stuff/1440/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Edge.cpp.obj"
-  "C:/Users/efair/OneDrive/School Stuff/1440/Triangles/Point.cpp" "C:/Users/efair/OneDrive/School Stuff/1440/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Point.cpp.obj"
-  "C:/Users/efair/OneDrive/School Stuff/1440/Triangles/Triangle.cpp" "C:/Users/efair/OneDrive/School Stuff/1440/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Triangle.cpp.obj"
-  "C:/Users/efair/OneDrive/School Stuff/1440/Triangles/Utils.cpp" "C:/Users/efair/OneDrive/School Stuff/1440/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Utils.cpp.obj"
-  "C:/Users/efair/OneDrive/School Stuff/1440/Triangles/main.cpp" "C:/Users/efair/OneDrive/School Stuff/1440/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/main.cpp.obj"
+  "C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Triangles/Edge.cpp" "C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Edge.cpp.obj"
+  "C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Triangles/Point.cpp" "C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Point.cpp.obj"
+  "C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Triangles/Triangle.cpp" "C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Triangle.cpp.obj"
+  "C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Triangles/Utils.cpp" "C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Utils.cpp.obj"
+  "C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Triangles/main.cpp" "C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

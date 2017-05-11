@@ -42,10 +42,10 @@ RM = "C:\Program Files (x86)\JetBrains\CLion 2016.3.2\bin\cmake\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\efair\OneDrive\School Stuff\1440\Triangles"
+CMAKE_SOURCE_DIR = "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Test.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/Test.dir/flags.make
 
 CMakeFiles/Test.dir/Testing/testMain.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/testMain.cpp.obj: ../Testing/testMain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Test.dir/Testing/testMain.cpp.obj"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Testing\testMain.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Testing\testMain.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Test.dir/Testing/testMain.cpp.obj"
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Testing\testMain.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Testing\testMain.cpp"
 
 CMakeFiles/Test.dir/Testing/testMain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/testMain.cpp.i"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Testing\testMain.cpp" > CMakeFiles\Test.dir\Testing\testMain.cpp.i
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Testing\testMain.cpp" > CMakeFiles\Test.dir\Testing\testMain.cpp.i
 
 CMakeFiles/Test.dir/Testing/testMain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/testMain.cpp.s"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Testing\testMain.cpp" -o CMakeFiles\Test.dir\Testing\testMain.cpp.s
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Testing\testMain.cpp" -o CMakeFiles\Test.dir\Testing\testMain.cpp.s
 
 CMakeFiles/Test.dir/Testing/testMain.cpp.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/Test.dir/Testing/testMain.cpp.obj.provides.build: CMakeFiles/Test.dir
 
 CMakeFiles/Test.dir/Testing/PointTester.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/PointTester.cpp.obj: ../Testing/PointTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Test.dir/Testing/PointTester.cpp.obj"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Testing\PointTester.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Testing\PointTester.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Test.dir/Testing/PointTester.cpp.obj"
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Testing\PointTester.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Testing\PointTester.cpp"
 
 CMakeFiles/Test.dir/Testing/PointTester.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/PointTester.cpp.i"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Testing\PointTester.cpp" > CMakeFiles\Test.dir\Testing\PointTester.cpp.i
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Testing\PointTester.cpp" > CMakeFiles\Test.dir\Testing\PointTester.cpp.i
 
 CMakeFiles/Test.dir/Testing/PointTester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/PointTester.cpp.s"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Testing\PointTester.cpp" -o CMakeFiles\Test.dir\Testing\PointTester.cpp.s
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Testing\PointTester.cpp" -o CMakeFiles\Test.dir\Testing\PointTester.cpp.s
 
 CMakeFiles/Test.dir/Testing/PointTester.cpp.obj.requires:
 
@@ -106,16 +106,16 @@ CMakeFiles/Test.dir/Testing/PointTester.cpp.obj.provides.build: CMakeFiles/Test.
 
 CMakeFiles/Test.dir/Testing/EdgeTester.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/EdgeTester.cpp.obj: ../Testing/EdgeTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test.dir/Testing/EdgeTester.cpp.obj"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Testing\EdgeTester.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Testing\EdgeTester.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test.dir/Testing/EdgeTester.cpp.obj"
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Testing\EdgeTester.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Testing\EdgeTester.cpp"
 
 CMakeFiles/Test.dir/Testing/EdgeTester.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/EdgeTester.cpp.i"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Testing\EdgeTester.cpp" > CMakeFiles\Test.dir\Testing\EdgeTester.cpp.i
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Testing\EdgeTester.cpp" > CMakeFiles\Test.dir\Testing\EdgeTester.cpp.i
 
 CMakeFiles/Test.dir/Testing/EdgeTester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/EdgeTester.cpp.s"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Testing\EdgeTester.cpp" -o CMakeFiles\Test.dir\Testing\EdgeTester.cpp.s
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Testing\EdgeTester.cpp" -o CMakeFiles\Test.dir\Testing\EdgeTester.cpp.s
 
 CMakeFiles/Test.dir/Testing/EdgeTester.cpp.obj.requires:
 
@@ -130,16 +130,16 @@ CMakeFiles/Test.dir/Testing/EdgeTester.cpp.obj.provides.build: CMakeFiles/Test.d
 
 CMakeFiles/Test.dir/Testing/TriangleTester.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/TriangleTester.cpp.obj: ../Testing/TriangleTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Test.dir/Testing/TriangleTester.cpp.obj"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Testing\TriangleTester.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Testing\TriangleTester.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Test.dir/Testing/TriangleTester.cpp.obj"
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Testing\TriangleTester.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Testing\TriangleTester.cpp"
 
 CMakeFiles/Test.dir/Testing/TriangleTester.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/TriangleTester.cpp.i"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Testing\TriangleTester.cpp" > CMakeFiles\Test.dir\Testing\TriangleTester.cpp.i
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Testing\TriangleTester.cpp" > CMakeFiles\Test.dir\Testing\TriangleTester.cpp.i
 
 CMakeFiles/Test.dir/Testing/TriangleTester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/TriangleTester.cpp.s"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Testing\TriangleTester.cpp" -o CMakeFiles\Test.dir\Testing\TriangleTester.cpp.s
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Testing\TriangleTester.cpp" -o CMakeFiles\Test.dir\Testing\TriangleTester.cpp.s
 
 CMakeFiles/Test.dir/Testing/TriangleTester.cpp.obj.requires:
 
@@ -154,16 +154,16 @@ CMakeFiles/Test.dir/Testing/TriangleTester.cpp.obj.provides.build: CMakeFiles/Te
 
 CMakeFiles/Test.dir/Testing/UtilsTester.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/UtilsTester.cpp.obj: ../Testing/UtilsTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Test.dir/Testing/UtilsTester.cpp.obj"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Testing\UtilsTester.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Testing\UtilsTester.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Test.dir/Testing/UtilsTester.cpp.obj"
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Testing\UtilsTester.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Testing\UtilsTester.cpp"
 
 CMakeFiles/Test.dir/Testing/UtilsTester.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/UtilsTester.cpp.i"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Testing\UtilsTester.cpp" > CMakeFiles\Test.dir\Testing\UtilsTester.cpp.i
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Testing\UtilsTester.cpp" > CMakeFiles\Test.dir\Testing\UtilsTester.cpp.i
 
 CMakeFiles/Test.dir/Testing/UtilsTester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/UtilsTester.cpp.s"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Testing\UtilsTester.cpp" -o CMakeFiles\Test.dir\Testing\UtilsTester.cpp.s
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Testing\UtilsTester.cpp" -o CMakeFiles\Test.dir\Testing\UtilsTester.cpp.s
 
 CMakeFiles/Test.dir/Testing/UtilsTester.cpp.obj.requires:
 
@@ -178,16 +178,16 @@ CMakeFiles/Test.dir/Testing/UtilsTester.cpp.obj.provides.build: CMakeFiles/Test.
 
 CMakeFiles/Test.dir/Point.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Point.cpp.obj: ../Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Test.dir/Point.cpp.obj"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Point.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Point.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Test.dir/Point.cpp.obj"
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Point.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Point.cpp"
 
 CMakeFiles/Test.dir/Point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Point.cpp.i"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Point.cpp" > CMakeFiles\Test.dir\Point.cpp.i
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Point.cpp" > CMakeFiles\Test.dir\Point.cpp.i
 
 CMakeFiles/Test.dir/Point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Point.cpp.s"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Point.cpp" -o CMakeFiles\Test.dir\Point.cpp.s
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Point.cpp" -o CMakeFiles\Test.dir\Point.cpp.s
 
 CMakeFiles/Test.dir/Point.cpp.obj.requires:
 
@@ -202,16 +202,16 @@ CMakeFiles/Test.dir/Point.cpp.obj.provides.build: CMakeFiles/Test.dir/Point.cpp.
 
 CMakeFiles/Test.dir/Edge.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Edge.cpp.obj: ../Edge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Test.dir/Edge.cpp.obj"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Edge.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Edge.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Test.dir/Edge.cpp.obj"
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Edge.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Edge.cpp"
 
 CMakeFiles/Test.dir/Edge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Edge.cpp.i"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Edge.cpp" > CMakeFiles\Test.dir\Edge.cpp.i
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Edge.cpp" > CMakeFiles\Test.dir\Edge.cpp.i
 
 CMakeFiles/Test.dir/Edge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Edge.cpp.s"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Edge.cpp" -o CMakeFiles\Test.dir\Edge.cpp.s
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Edge.cpp" -o CMakeFiles\Test.dir\Edge.cpp.s
 
 CMakeFiles/Test.dir/Edge.cpp.obj.requires:
 
@@ -226,16 +226,16 @@ CMakeFiles/Test.dir/Edge.cpp.obj.provides.build: CMakeFiles/Test.dir/Edge.cpp.ob
 
 CMakeFiles/Test.dir/Triangle.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Triangle.cpp.obj: ../Triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Test.dir/Triangle.cpp.obj"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Triangle.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Triangle.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Test.dir/Triangle.cpp.obj"
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Triangle.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Triangle.cpp"
 
 CMakeFiles/Test.dir/Triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Triangle.cpp.i"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Triangle.cpp" > CMakeFiles\Test.dir\Triangle.cpp.i
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Triangle.cpp" > CMakeFiles\Test.dir\Triangle.cpp.i
 
 CMakeFiles/Test.dir/Triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Triangle.cpp.s"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Triangle.cpp" -o CMakeFiles\Test.dir\Triangle.cpp.s
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Triangle.cpp" -o CMakeFiles\Test.dir\Triangle.cpp.s
 
 CMakeFiles/Test.dir/Triangle.cpp.obj.requires:
 
@@ -250,16 +250,16 @@ CMakeFiles/Test.dir/Triangle.cpp.obj.provides.build: CMakeFiles/Test.dir/Triangl
 
 CMakeFiles/Test.dir/Utils.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Utils.cpp.obj: ../Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Test.dir/Utils.cpp.obj"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Utils.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Utils.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Test.dir/Utils.cpp.obj"
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Utils.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Utils.cpp"
 
 CMakeFiles/Test.dir/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Utils.cpp.i"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Utils.cpp" > CMakeFiles\Test.dir\Utils.cpp.i
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Utils.cpp" > CMakeFiles\Test.dir\Utils.cpp.i
 
 CMakeFiles/Test.dir/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Utils.cpp.s"
-	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\Utils.cpp" -o CMakeFiles\Test.dir\Utils.cpp.s
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\Utils.cpp" -o CMakeFiles\Test.dir\Utils.cpp.s
 
 CMakeFiles/Test.dir/Utils.cpp.obj.requires:
 
@@ -300,7 +300,7 @@ Test.exe: CMakeFiles/Test.dir/build.make
 Test.exe: CMakeFiles/Test.dir/linklibs.rsp
 Test.exe: CMakeFiles/Test.dir/objects1.rsp
 Test.exe: CMakeFiles/Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -325,6 +325,6 @@ CMakeFiles/Test.dir/clean:
 .PHONY : CMakeFiles/Test.dir/clean
 
 CMakeFiles/Test.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\efair\OneDrive\School Stuff\1440\Triangles" "C:\Users\efair\OneDrive\School Stuff\1440\Triangles" "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\cmake-build-debug" "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\cmake-build-debug" "C:\Users\efair\OneDrive\School Stuff\1440\Triangles\cmake-build-debug\CMakeFiles\Test.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles" "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles" "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\cmake-build-debug" "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\cmake-build-debug" "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\Triangles\cmake-build-debug\CMakeFiles\Test.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Test.dir/depend
 

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/GenericDictionary.dir/main.cpp.obj"
+  "CMakeFiles/GenericDictionary.dir/BinTree.cpp.obj"
   "GenericDictionary.pdb"
   "GenericDictionary.exe"
   "GenericDictionary.exe.manifest"

@@ -122,6 +122,14 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/BinTree.cpp">
+			<Option target="GenericDictionary"/>
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/BinTree.h">
+			<Option target="GenericDictionary"/>
+			<Option target="Test"/>
+		</Unit>
 		<Unit filename="C:/Users/efair/OneDrive/School Stuff/1440/Repositories/cs1440me/GenericDictionary/Dictionary.h">
 			<Option target="GenericDictionary"/>
 			<Option target="Test"/>

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Test.dir/Testing/testMain.cpp.obj"
+  "CMakeFiles/Test.dir/BinTree.cpp.obj"
   "CMakeFiles/Test.dir/Testing/DictionaryTester.cpp.obj"
   "CMakeFiles/Test.dir/Testing/KeyValueTester.cpp.obj"
   "Test.pdb"

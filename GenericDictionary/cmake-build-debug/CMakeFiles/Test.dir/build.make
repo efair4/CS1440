@@ -80,9 +80,33 @@ CMakeFiles/Test.dir/Testing/testMain.cpp.obj.provides: CMakeFiles/Test.dir/Testi
 CMakeFiles/Test.dir/Testing/testMain.cpp.obj.provides.build: CMakeFiles/Test.dir/Testing/testMain.cpp.obj
 
 
+CMakeFiles/Test.dir/BinTree.cpp.obj: CMakeFiles/Test.dir/flags.make
+CMakeFiles/Test.dir/BinTree.cpp.obj: ../BinTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\GenericDictionary\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Test.dir/BinTree.cpp.obj"
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\BinTree.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\GenericDictionary\BinTree.cpp"
+
+CMakeFiles/Test.dir/BinTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/BinTree.cpp.i"
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\GenericDictionary\BinTree.cpp" > CMakeFiles\Test.dir\BinTree.cpp.i
+
+CMakeFiles/Test.dir/BinTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/BinTree.cpp.s"
+	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\GenericDictionary\BinTree.cpp" -o CMakeFiles\Test.dir\BinTree.cpp.s
+
+CMakeFiles/Test.dir/BinTree.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Test.dir/BinTree.cpp.obj.requires
+
+CMakeFiles/Test.dir/BinTree.cpp.obj.provides: CMakeFiles/Test.dir/BinTree.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/BinTree.cpp.obj.provides.build
+.PHONY : CMakeFiles/Test.dir/BinTree.cpp.obj.provides
+
+CMakeFiles/Test.dir/BinTree.cpp.obj.provides.build: CMakeFiles/Test.dir/BinTree.cpp.obj
+
+
 CMakeFiles/Test.dir/Testing/DictionaryTester.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/DictionaryTester.cpp.obj: ../Testing/DictionaryTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\GenericDictionary\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Test.dir/Testing/DictionaryTester.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\GenericDictionary\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test.dir/Testing/DictionaryTester.cpp.obj"
 	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Testing\DictionaryTester.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\GenericDictionary\Testing\DictionaryTester.cpp"
 
 CMakeFiles/Test.dir/Testing/DictionaryTester.cpp.i: cmake_force
@@ -106,7 +130,7 @@ CMakeFiles/Test.dir/Testing/DictionaryTester.cpp.obj.provides.build: CMakeFiles/
 
 CMakeFiles/Test.dir/Testing/KeyValueTester.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/KeyValueTester.cpp.obj: ../Testing/KeyValueTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\GenericDictionary\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test.dir/Testing/KeyValueTester.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\GenericDictionary\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Test.dir/Testing/KeyValueTester.cpp.obj"
 	C:\MinGW\mingw-w64\i686-6.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Testing\KeyValueTester.cpp.obj -c "C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\GenericDictionary\Testing\KeyValueTester.cpp"
 
 CMakeFiles/Test.dir/Testing/KeyValueTester.cpp.i: cmake_force
@@ -131,6 +155,7 @@ CMakeFiles/Test.dir/Testing/KeyValueTester.cpp.obj.provides.build: CMakeFiles/Te
 # Object files for target Test
 Test_OBJECTS = \
 "CMakeFiles/Test.dir/Testing/testMain.cpp.obj" \
+"CMakeFiles/Test.dir/BinTree.cpp.obj" \
 "CMakeFiles/Test.dir/Testing/DictionaryTester.cpp.obj" \
 "CMakeFiles/Test.dir/Testing/KeyValueTester.cpp.obj"
 
@@ -138,13 +163,14 @@ Test_OBJECTS = \
 Test_EXTERNAL_OBJECTS =
 
 Test.exe: CMakeFiles/Test.dir/Testing/testMain.cpp.obj
+Test.exe: CMakeFiles/Test.dir/BinTree.cpp.obj
 Test.exe: CMakeFiles/Test.dir/Testing/DictionaryTester.cpp.obj
 Test.exe: CMakeFiles/Test.dir/Testing/KeyValueTester.cpp.obj
 Test.exe: CMakeFiles/Test.dir/build.make
 Test.exe: CMakeFiles/Test.dir/linklibs.rsp
 Test.exe: CMakeFiles/Test.dir/objects1.rsp
 Test.exe: CMakeFiles/Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\GenericDictionary\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\efair\OneDrive\School Stuff\1440\Repositories\cs1440me\GenericDictionary\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +179,7 @@ CMakeFiles/Test.dir/build: Test.exe
 .PHONY : CMakeFiles/Test.dir/build
 
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Testing/testMain.cpp.obj.requires
+CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/BinTree.cpp.obj.requires
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Testing/DictionaryTester.cpp.obj.requires
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Testing/KeyValueTester.cpp.obj.requires
 

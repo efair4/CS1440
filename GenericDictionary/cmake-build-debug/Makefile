@@ -135,6 +135,36 @@ Test/fast:
 	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
 .PHONY : Test/fast
 
+BinTree.obj: BinTree.cpp.obj
+
+.PHONY : BinTree.obj
+
+# target to build an object file
+BinTree.cpp.obj:
+	$(MAKE) -f CMakeFiles\GenericDictionary.dir\build.make CMakeFiles/GenericDictionary.dir/BinTree.cpp.obj
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/BinTree.cpp.obj
+.PHONY : BinTree.cpp.obj
+
+BinTree.i: BinTree.cpp.i
+
+.PHONY : BinTree.i
+
+# target to preprocess a source file
+BinTree.cpp.i:
+	$(MAKE) -f CMakeFiles\GenericDictionary.dir\build.make CMakeFiles/GenericDictionary.dir/BinTree.cpp.i
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/BinTree.cpp.i
+.PHONY : BinTree.cpp.i
+
+BinTree.s: BinTree.cpp.s
+
+.PHONY : BinTree.s
+
+# target to generate assembly for a file
+BinTree.cpp.s:
+	$(MAKE) -f CMakeFiles\GenericDictionary.dir\build.make CMakeFiles/GenericDictionary.dir/BinTree.cpp.s
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/BinTree.cpp.s
+.PHONY : BinTree.cpp.s
+
 Testing/DictionaryTester.obj: Testing/DictionaryTester.cpp.obj
 
 .PHONY : Testing/DictionaryTester.obj
@@ -253,6 +283,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Test
 	@echo ... edit_cache
+	@echo ... BinTree.obj
+	@echo ... BinTree.i
+	@echo ... BinTree.s
 	@echo ... Testing/DictionaryTester.obj
 	@echo ... Testing/DictionaryTester.i
 	@echo ... Testing/DictionaryTester.s

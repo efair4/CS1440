@@ -203,21 +203,12 @@ void DictionaryTester::testGetters(){
     }
 
     try {
-        KeyValue<int, int> index3 = dict2.getByIndex(3);
-        if (index3.getKey() != 3) {
-            std::cout << "Failure, key should have been 3 but was "
-                      << index3.getKey() << std::endl;
-        }
-        if (index3.getValue() != 3) {
-            std::cout << "Failure, value should have been 3 but was "
-                      << index3.getValue() << std::endl;
-        }
         if (dict2.getCount() != 7) {
             std::cout << "Failure, count should have been 7 but was "
                       << dict2.getCount() << std::endl;
         }
-        if (dict2.getSize() != 15) {
-            std::cout << "Failure, size should have been 15 but was "
+        if (dict2.getSize() != 30) {
+            std::cout << "Failure, size should have been 30 but was "
                       << dict2.getSize() << std::endl;
         }
     }catch(const char* ex){
@@ -253,8 +244,8 @@ void DictionaryTester::testRemove(){
         std::cout<<"Failure, count should be 6 but was "
                  <<dict.getCount()<<std::endl;
     }
-    if(dict.getSize()!=10){
-        std::cout<<"Failure, size should be 10 but was "
+    if(dict.getSize()!=20){
+        std::cout<<"Failure, size should be 20 but was "
                  <<dict.getSize()<<std::endl;
     }
 
@@ -262,12 +253,12 @@ void DictionaryTester::testRemove(){
     dict.removeByKey("fruit");
     dict.removeByKey("book");
 
-    if(dict.getCount()!=3){
-        std::cout<<"Failure, count should be 3 but was "
+    if(dict.getCount()!=4){
+        std::cout<<"Failure, count should be 4 but was "
                  <<dict.getCount()<<std::endl;
     }
-    if(dict.getSize()!=10){
-        std::cout<<"Failure, size should be 10 but was "
+    if(dict.getSize()!=20){
+        std::cout<<"Failure, size should be 20 but was "
                  <<dict.getSize()<<std::endl;
     }
 
@@ -295,13 +286,13 @@ void DictionaryTester::testResize(){
     for(int i=0;i<9;i++){
         intIntDict.add(i, i);
     }
-    if(intIntDict.getSize()!=10){
-        std::cout<<"Failure, size should have been 10 but was "
+    if(intIntDict.getSize()!=20){
+        std::cout<<"Failure, size should have been 20 but was "
                  <<intIntDict.getSize()<<std::endl;
     }
     intIntDict.add(38,102);
-    if(intIntDict.getSize()!=20){
-        std::cout<<"Failure, size should have been 20 but was "
+    if(intIntDict.getSize()!=40){
+        std::cout<<"Failure, size should have been 40 but was "
                  <<intIntDict.getSize()<<std::endl;
     }
     if(intIntDict.getCount()!=10){
@@ -317,8 +308,8 @@ void DictionaryTester::testResize(){
         std::cout<<"Failure, count should have been 1000 but was "
                  <<dict.getCount()<<std::endl;
     }
-    if(dict.getSize()!=2000){
-        std::cout<<"Failure, size should have been 2000 but was "
+    if(dict.getSize()!=4000){
+        std::cout<<"Failure, size should have been 4000 but was "
                  <<dict.getSize()<<std::endl;
     }
 
